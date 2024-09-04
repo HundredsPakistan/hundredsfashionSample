@@ -1,0 +1,122 @@
+.blogs-banner{
+	height: 350px;
+	background-image: url(blogbanner.png);
+	width: 1348px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	margin-bottom: 100px;
+	color: #fff;
+	text-align: center;
+}
+.blogs-banner h1{
+	line-height: 350px;
+	font-size: 50px;
+}
+.blog4{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://finicalholdings.com/wp-content/uploads/2021/12/women-doing-online-shopping-at-home.jpg);
+}
+.blog5{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://media.licdn.com/dms/image/D4D12AQETwlohaRb2jQ/article-cover_image-shrink_720_1280/0/1660672028846?e=2147483647&v=beta&t=iS7J-l34O7V-1It1Xj42veayZrsoUI4q2R4McA6hFiQ);
+}
+.blog6{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(carousel1.png);
+}
+.blog7{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(carousel2.png);
+}
+.blog8{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/547a3834e4b053a861c4874e/db94686a-c396-4163-9553-eef1962af5a9/Sustainably+Chic+%7C+Sustainable+Fashion+Blog+%7C+How+to+Spot+High+Quality+Clothing+%7C+French+Seam.jpeg);
+}
+.blog9{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://www.thecornerbooth.com.au/cdn/shop/articles/onlineboysclothing.ouch.annandale.sydney-508909_1024x1024.png?v=1678416094);
+}
+
+  body {
+            height: 200vh; /* Add some height to create a scrollbar */
+        }
+
+        /* Custom scrollbar CSS */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+@media (max-width:990px){
+	body{
+		height: 100vh;
+	}
+	.blogs-banner h1{
+		margin-right: 1000px;
+	}
+	#blogs2{
+		position: relative;
+		top: -800px;
+	}
+	.blog4{
+		position: relative;
+		top: -400px;
+	}
+	.blog5{
+		position: relative;
+		top: -200px;
+	}
+	#blogs3{
+		position: relative;
+		top: -1600px;
+		margin-bottom: -2600px;
+	}
+	.blog7{
+		position: relative;
+		top: -400px;
+	}
+	.blog8{
+		position: relative;
+		top: -200px;
+	}
+	footer{
+		height: 1050px;
+	}
+}

@@ -1,0 +1,685 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+            height: 200vh; /* Add some height to create a scrollbar */
+        }
+
+        /* Custom scrollbar CSS */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+.top-head{
+	background-color: #111111;
+	color: #fff;
+	display: flex;
+	height: 3rem;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0em 6em 0em 6em;
+	font-family: sans-serif;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.top-head-btns a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 2rem;
+	font-size: 0.9rem;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.top-head-offer p{
+	margin-top: 15px;
+}
+.main-header{
+	height: 6rem;
+	width: 100%;;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f3f2ee;
+}
+.header-logo{
+	margin-left: 40px;
+}
+.header-nav a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2rem;
+	margin-left: 2rem;
+	transition: 0.7s;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.header-nav a:hover{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 3px;
+}
+#currentPage{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 3px;
+}
+.header-more{
+	margin-right: 7rem;
+	font-size: 1.2rem;
+}
+.header-more i{
+	color: #000;
+	margin-right: 1.5rem;
+}
+#cart{
+	height: 1.4rem;
+	width: 1.4rem;
+	position: relative;
+	top: -3px;
+}
+.collection-list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+#currentCollection{
+	color: #000;
+}
+.collection-list a{
+	margin: 30px;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 22px;
+	font-weight: 800;
+}
+.collection-cont a{
+	text-decoration: none;
+	color: #000;
+}
+.collection-prod-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.collection-prod1{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod1 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod2{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod2 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod3{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod3 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod4{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod4 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod5{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod5 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod6{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod6 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod7{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod7 img{
+	height: 250px;
+	width: 250px;
+}
+.collection-prod8{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	background-color: #000;
+}
+.collection-prod8 img{
+	height: 250px;
+	width: 250px;
+}
+#discount-rate{
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.3);
+}
+.collection-details p{
+	margin-left: 20px;
+	font-size: 17px;
+}
+.collection-details h6{
+	margin-left: 20px;
+	margin-top: 5px;
+	font-weight: 800;
+}
+.rating{
+	margin-left: 20px;
+	margin-top: -15px;
+	font-size: 12px;
+	letter-spacing: -2px;
+}
+.rating i{
+	color: orange;
+}
+.offer-cont{
+	height: 500px;
+	width: 1345px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	background-color: #f3f2ee;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.offer-niche{
+	margin-left: 40px;
+	color: rgba(0, 0, 0, 0.3);
+}
+#highlight-txt{
+	color: #000;
+}
+.offer-prod img{
+	width: 500px;
+}
+.offer-period{
+	margin-right: 80px;
+	margin-top: -50px;
+}
+.offer-period h6{
+	color: red;
+	text-transform: uppercase;
+	word-spacing: 5px;
+}
+#offer-title{
+	margin-bottom: 20px;
+}
+.timer{
+	display: flex;
+	align-items: center;
+}
+.days{
+	margin-right: 20px;
+}
+.hours{
+	margin-right: 20px;
+}
+.hours p{
+	margin-left: -10px;
+}
+.minutes{
+	margin-right: 20px;
+}
+.offer-btn a{
+	color: green;
+}
+.insta-post-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.insta-posts-row{
+	width: 800px;
+	margin-left: 100px;
+}
+.insta-posts-row img{
+	height: 220px;
+	width: 220px;
+	margin: 5px;
+}
+.insta-posts-txt{
+	margin-right: 120px;
+}
+.insta-posts-txt h2{
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.insta-posts-txt h3{
+	margin-top: 50px;
+	color: red;
+}
+.blogs-top-title h6{
+	text-align: center;
+	color: red;
+	letter-spacing: 5px;
+}
+.blogs-top-title h2{
+	text-align: center;
+	color: #000;
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+.blogs-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blog1{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://media.istockphoto.com/id/1214561965/photo/young-man-in-shopping-looking-for-presents-consumerism-fashion-lifestyle-concept.jpg?s=612x612&w=0&k=20&c=G1n6f4oQ6om156yTJgdKiQ8_Mn6KqtKAHHXDY0-4f3Q=);
+}
+.blog2{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://s7d2.scene7.com/is/image/DCMEcommerce/ATT220550020_alt2?wid=313&hei=313&$productmain$&defaultImage=noimagemedium&resMode=sharp2&op_sharpen=1&qlt=85,0);
+}
+.blog3{
+	height: 250px;
+	width: 350px;
+	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(https://bobbysfashions.com/wp-content/uploads/2018/05/Style-Accessories-for-Men.jpg);
+}
+.blog-details{
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	height: 200px;
+	width: 280px;
+	margin: 50px;
+	position: relative;
+	top: -120px;
+	padding: 20px;
+}
+.blog-details h6{
+	font-size: 18px;
+}
+.blog-details a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	display: block;
+	width: 88px;
+	border-bottom: 3px solid red;
+	transition: 0.5s;
+}
+.blog-details a:hover{
+	width: 120px;
+}
+footer{
+	width: 100%;
+	height: 450px;
+	background-color: #111111;
+	margin-top: -100px;
+}
+.footer-cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px;
+	padding-top: 50px;
+}
+.footer-col1 img{
+	margin-left: -16px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+.footer-col1 p{
+	color: #B7B7B7;
+}
+.footer-col2 h2{
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+.footer-col3 h2{
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+.footer-col4 h2{
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.footer-col2 a{
+    text-decoration: none;
+	color: #B7B7B7;
+	line-height: 40px;
+}
+.footer-col3 a{
+	text-decoration: none;
+	color: #B7B7B7;
+	line-height: 40px;
+}
+.footer-col4 p{
+	color: #B7B7B7;
+}
+#newsletter{
+	background-color: transparent;
+	color: #B7B7B7;
+	border: none;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #fff;
+	outline: none;
+}
+#submit{
+	border: none;
+	background-color: #fff;
+	color: #000;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+	top: 8px;
+	left: 5px;
+}
+.payments{
+	margin-left: 15px;
+	margin-top: 40px;
+}
+.footer-bottom-title p{
+	color: #B7B7B7;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+}
+#shortline{
+	color: #fff;
+	width: 80%;
+	margin: 0px auto;
+}
+#carouselbtn1{
+	background-color: #3B2A24;
+	color: #fff;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	width: 380px;
+	border-radius: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+	text-transform: uppercase;
+	left: 440px;
+	border: 1px solid #3B2A24;
+	top: -60px;
+	font-family: sans-serif;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	transition: 0.5s;
+}
+#carouselbtn1:hover{
+	color: #3B2A24;
+	border: 1px solid #3B2A24;
+	background-color: transparent;
+}
+#carouselbtn2{
+	background-color: #010A26;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	height: 50px;
+	line-height: 50px;
+	width: 470px;
+	border-radius: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+	left: 60px;
+	border: 1px solid #010A26;
+	font-family: sans-serif;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	top: -60px;
+	transition: 0.5s;
+}
+#carouselbtn2:hover{
+	color: #010A26;
+	border: 1px solid #010A26;
+	background-color: transparent;
+}
+.responsive-collection-list{
+	display: none;
+}
+.for-mob{
+	display: none;
+}
+.hamburger{
+	display: none;
+}
+.hambar{
+	display: none;
+}
+@media (max-width:990px){
+	html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+	.top-head-btns{
+		display: none;
+	}
+	.top-head-offer{
+		width: 100%;
+		margin-left: -80px;
+		font-size: 12px;
+	}
+	.header-nav{
+		display: none;
+	}
+	.header-more{
+		display: none;
+	}
+	.header-logo{
+		margin-left: 80px;
+	}
+	.collection-prod-row{
+		display: block;
+		margin-left: 40px;
+	}
+	.collection-list a{
+		display: none;
+	}
+	.responsive-collection-list{
+		display: block;
+		margin-left: 100px;
+		margin-bottom: 70px;
+	}
+	.responsive-collection-list a{
+		text-decoration: none;
+		color: #000;
+		font-size: 30px;
+		font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 500;
+	}
+	.hambar{
+		display: none;
+	}
+
+     /*	OFFER */
+    .offer-cont{
+	    height: 900px;
+	    width: 100%;
+	    display: block;
+    }
+    .offer-niche h1{
+    	text-align: center;
+    	margin-left: -50px;
+    }
+    .offer-prod img{
+    	width: 100%;
+    	margin-top: 10px;
+    	margin-bottom: 90px;
+    }
+    .offer-period{
+    	text-align: center;
+    	position: relative;
+    	left: 40px;
+    }
+    .timer{
+    	position: relative;
+    	left: 20px;
+    }
+    .offer-period a{
+    	margin-left: 70px;
+    	margin-top: 20px;
+    }
+    .insta-post-cont{
+    	display: block;
+    }
+    .insta-posts-row{
+    	margin-left: 30px;
+    }
+    .insta-posts-row img{
+    	height: 100px;
+    	width: 100px;
+    	margin: -1px;
+    }
+    .insta-posts-txt{
+    	margin-top: 70px;
+    	text-align: center;
+    	margin-left: 50px;
+    	margin-right: 50px;
+    }
+    .insta-posts-txt h3{
+    	margin-left: -18px;
+    }
+    .blogs-cont{
+    	display: block;
+    }
+    .blog1{
+    	margin-bottom: 200px;
+    }
+    .blog2{
+    	margin-bottom: 200px;
+    }
+    .blog-details{
+    	position: relative;
+    	top: -1000px;
+    	margin-bottom: 250px;
+    }
+    footer{
+    	margin-top: -1000px;
+    	height: 1000px;
+     }
+    .footer-cont{
+    	display: block;
+    }
+    .for-mob{
+	    display: block;
+     }
+    .for-computer{
+	    display: none;
+     }
+     .hamburger{
+     	display: block;
+     }
+     .hamburger a{
+     	color: #fff;
+     	position: relative;
+     	left: 60px;
+     }
+     .hambar{
+     	display: none;
+     	background-color: grey;
+     }
+     .hambar a{
+     	display: block;
+     	text-decoration: none;
+     	color: #fff;
+     	background-color: #000;
+     	padding-left: 20px;
+     	height: 40px;
+     	line-height: 40px;
+     }
+     .hambar a:hover{
+     	background-color: grey;
+     	color: #fff;
+     }
+     .footer-col2{
+     	margin-bottom: 50px;
+     }
+     .footer-col3{
+     	margin-bottom: 60px;
+     }
+     .footer-col4{
+     	display: none;
+     }
+     .footer-bottom-title{
+     	padding: 0px 40px 0px 40px;
+     }
+}

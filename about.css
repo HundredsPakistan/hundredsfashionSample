@@ -1,0 +1,254 @@
+.about-us-main-page-img{
+	margin-left: 100px;
+}
+.about-us-details{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.about-us-details h1{
+	font-size: 25px;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 50px;
+}
+.about-us-details p{
+	font-size: 15px;
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.quote{
+	height: 600px;
+	width: 1348px;
+	margin-top: 80px;
+	display: flex;
+}
+.quote-txt{
+	flex-basis: 50%;
+	background-color: #f3f2ee;
+}
+.quote-img{
+	flex-basis: 50%;
+	background-image: url(about-banner.png);
+}
+.quote-txt h2{
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    padding: 0px 150px 0px 150px;
+}
+.quote-txt h1{
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 150px;
+}
+.author{
+	display: flex;
+	margin-left: 230px;
+	margin-top: 50px;
+}
+.author-img img{
+	width: 55px;
+	height: 55px;
+	border-radius: 180px;
+}
+.author-des h3{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.author-des h4{
+	font-size: 18px;
+	font-style: italic;
+	color: #B7B7B7;
+	margin-left: 10px;
+}
+.overview{
+	height: 300px;
+	width: 1348px;
+}
+.overview-cont{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.customer{
+	display: flex;
+	align-items: center;
+	margin-top: 120px;
+}
+.customer h1{
+	font-size: 55px;
+}
+.customer h2{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.categories{
+	display: flex;
+	align-items: center;
+	margin-top: 120px;
+}
+.categories h1{
+	font-size: 55px;
+}
+.categories h2{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.cities{
+	display: flex;
+	align-items: center;
+	margin-top: 120px;
+}
+.cities h1{
+	font-size: 55px;
+}
+.cities h2{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.satisfaction{
+	display: flex;
+	align-items: center;
+	margin-top: 120px;
+}
+.satisfaction h1{
+	font-size: 55px;
+}
+.satisfaction h2{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.team{
+	margin-top: 50px;
+}
+.team h2{
+	text-align: center;
+	color: red;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.team h1{
+	text-align: center;
+	color: #000;
+	margin-bottom: 50px;
+}
+.team-cont{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.member img{
+	height: 400px;
+	width: 300px;
+}
+.member h1{
+	color: #000;
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: left;
+}
+.member h3{
+	color: grey;
+	font-size: 15px;
+	margin-top: -40px;
+}
+  body {
+            height: 200vh; /* Add some height to create a scrollbar */
+        }
+
+        /* Custom scrollbar CSS */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+ @media (max-width:990px){
+ 	.about-us-main-page-img img{
+ 		width: 300px;
+ 		margin-left: -70px;
+ 	}
+ 	.about-us-details{
+ 		text-align: center;
+ 		display: block;
+ 		width: 250px;
+ 		margin-left: 55px;
+ 		margin-right: 80px;
+ 	}
+ 	.quote-img{
+ 		display: none;
+ 	}
+ 	.quote{
+ 		width: 100%;
+ 	}
+ 	.quote-txt{
+ 		width: 100%;
+ 		margin: 0;
+ 		display: block;
+ 	}
+ 	.quote-txt h2{
+ 		margin-left: -90px;
+ 		width: 550px;
+ 	}
+ 	.author{
+ 		margin-left: 100px;
+ 	}
+ 	.overview-cont{
+ 		display: block;
+ 		padding-left: 120px;
+ 	}
+ 	.team{
+ 		margin-top: 450px;
+ 	}
+ 	#hr{
+ 		display: none;
+ 	}
+ 	.customer{
+ 		border-bottom: 1px solid red;
+ 		width: 90px;
+ 	}
+ 	.categories{
+ 		border-bottom: 1px solid red;
+ 		width: 70px;
+ 	}
+ 	.cities{
+ 		border-bottom: 1px solid red;
+ 		width: 70px;
+ 	}
+ 	.satisfaction{
+ 		border-bottom: 1px solid red;
+ 		width: 100px;
+ 		margin-left: -60px;
+ 	}
+ 	.team-cont{
+ 		display: block;
+ 		margin-left: 30px;
+ 		margin-bottom: -2250px;
+ 	}
+ 	.member{
+ 		margin-bottom: 50px;
+ 	}
+ }

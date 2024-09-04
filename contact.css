@@ -1,0 +1,115 @@
+*{
+	font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.contact{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.contact-details{
+	margin-left: 30px;
+}
+.contact-details h1{
+	margin-bottom: 20px;
+}
+.contact-details h3{
+	text-transform: uppercase;
+	color: red;
+	font-size: 13px;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+}
+.contact-details h2{
+	font-size: 25px;
+}
+.contact-details p{
+	line-height: 10px;
+}
+form input{
+	height: 45px;
+	padding-left: 20px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	border: 1px solid #B7B7B7;
+	outline: none;
+}
+form textarea{
+	padding-left: 20px;
+	padding-top: 10px;
+	resize: none;
+	border: 1px solid #B7B7B7;
+	width: 510px;
+	outline: none;
+	height: 200px;
+}
+form #submitBtn{
+	background-color: #000;
+	color: #fff;
+	width: 250px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	height: 50px;
+	border: 1px solid #000;
+	transition: 0.5s;
+}
+form #submitBtn:hover{
+	color: #000;
+	background-color: transparent;
+}
+  body {
+            height: 200vh; /* Add some height to create a scrollbar */
+        }
+
+        /* Custom scrollbar CSS */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+@media (max-width:990px){
+	iframe{
+		width: 100%;
+		/*position: relative;
+		bottom: -1000px;*/
+	}
+	footer{
+		position: relative;
+		bottom: -1500px;
+	}
+	.contact{
+		display: block;
+		margin-top: -550px;
+		position: relative;
+		top: 600px;
+	}
+	.contact-details p{
+		line-height: 20px;
+	}
+	.contact-form{
+		margin-top: 50px;
+		margin-left: 60px;
+	}
+	form textarea{
+		width: 240px;
+	}
+	#submitBtn{
+		margin-left: -3px;
+	}
+}

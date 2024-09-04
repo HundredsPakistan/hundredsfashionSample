@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hundreds Fashion Store</title>
+	<!-- WEBSITE CSS FILE LINK -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- FONT AWESOME CDN LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- WEBSITE FAVICORN  -->
+	<link rel="icon" type="image/x-icon" href="fav.png">
+	<!-- BOOTSTRAP CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<!-- GOOGLE FONTS CDN -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="top-head">
+			<div class="top-head-offer">
+				<p>Free shipping, 7-day return or refund guarantee.</p>
+			</div>
+			<div class="top-head-btns">
+				<a href="#">Sign In</a>
+				<a href="#">Faqs</a>
+				<a href="#">More</a>
+			</div>
+			<div class="hamburger">
+				<a href="#" onclick="clickHam()"><i class="fa-solid fa-bars"></i></a>
+			</div>
+		</div>
+		<div class="hambar">
+      <a href="#">Home</a>
+			<a href="shop.html" target="_blank">Shop</a>
+			<a href="about.html" target="_blank">About Us</a>
+			<a href="blog.html"  target="_blank">Blog</a>
+			<a href="contact.html" target="_blank">Contact</a>
+    </div>
+		<div class="main-header">
+			<div class="header-logo">
+				<img src="logo.png">
+			</div>
+			<div class="header-nav">
+				<a href="#" id="currentPage">Home</a>
+				<a href="shop.html" target="_blank">Shop</a>
+				<a href="about.html" target="_blank">About Us</a>
+				<a href="blog.html"  target="_blank">Blog</a>
+				<a href="contact.html" target="_blank">Contact</a>
+			</div>
+			<div class="header-more">
+				<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+				<a href="#"><i class="fa-regular fa-heart"></i></a>
+				<a href="#"><img id="cart" src="cart.png"></a>
+			</div>
+		</div>
+	</header>
+	<section id="main-body">
+		<div class="for-computer">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="carousel2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <a id="carouselbtn1" href="#">Shop Now</a>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <a id="carouselbtn2" href="#">Shop Now</a>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="for-mob">
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="mob-car1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="mob-car2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <a id="carouselbtn1" href="#">Shop Now</a>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="mob-car3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <a id="carouselbtn2" href="#">Shop Now</a>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</section>
+<section id="collection">
+	<div class="collection-list">
+		<a href="#" id="currentCollection">Best Sellers</a>
+		<a href="#">New Arrivals</a>
+		<a href="#">Hot Sales</a>
+	</div>
+	<div class="responsive-collection-list">
+		<a href="#" id="currentPage">Best Sellers</a>
+	</div>
+	<div class="collection-prod-row">
+		<div class="collection-cont">
+			<a href="product1.html">
+			<div class="collection-prod1">
+				<img src="product1.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs1,199 <span id="discount-rate">&nbsp;Rs1,500</span></h6>
+			</div>
+			</a>
+		</div>
+		<div class="collection-cont">
+			<div class="collection-prod2">
+				<img src="product2.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs1,499 <span id="discount-rate">&nbsp;Rs1,800</span></h6>
+			</div>
+		</div>
+		<div class="collection-cont">
+			<div class="collection-prod3">
+				<img src="product3.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs899 <span id="discount-rate">&nbsp;Rs1,200</span></h6>
+			</div>
+		</div>
+		<div class="collection-cont">
+			<div class="collection-prod4">
+				<img src="product4.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs999 <span id="discount-rate">&nbsp;Rs1,100</span></h6>
+			</div>
+		</div>
+	</div>
+	<div class="collection-prod-row">
+		<div class="collection-cont">
+			<div class="collection-prod5">
+				<img src="product1.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs1,199 <span id="discount-rate">&nbsp;Rs1,500</span></h6>
+			</div>
+		</div>
+		<div class="collection-cont">
+			<div class="collection-prod6">
+				<img src="product2.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs1,199 <span id="discount-rate">&nbsp;Rs1,500</span></h6>
+			</div>
+		</div>
+		<div class="collection-cont">
+			<div class="collection-prod7">
+				<img src="product3.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+				</div>
+				<h6>Rs1,199 <span id="discount-rate">&nbsp;Rs1,500</span></h6>
+			</div>
+		</div>
+		<div class="collection-cont4">
+			<div class="collection-prod4">
+				<img src="product4.png">
+			</div>
+			<div class="collection-details">
+				<p>Tie dye hoodie</p>
+				<div class="rating">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+				<h6>Rs1,199 <span id="discount-rate">&nbsp;Rs1,500</span></h6>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="offer">
+	<div class="offer-cont">
+		<div class="offer-niche">
+			<h1>Clothing Hot</h1>
+			<h1 id="highlight-txt">Hoodies Collection</h1>
+			<h1>Mens Fashion</h1>
+		</div>
+		<div class="offer-prod">
+			<img src="offer.png">
+		</div>
+		<div class="offer-period">
+			<h6>Deal of the week</h6>
+			<h1 id="offer-title">Dark Blue Tie Dye<br>Mens Hoodie</h1>
+			<div class="timer">
+				<div class="days">
+					<h1>0 :</h1>
+					<p>Days</p>
+				</div>
+				<div class="hours">
+					<h1>0 :</h1>
+					<p>Hours</p>
+				</div>
+				<div class="minutes">
+					<h1>0 :</h1>
+					<p>Minutes</p>
+				</div>
+				<div class="seconds">
+					<h1>0</h1>
+					<p>Seconds</p>
+				</div>
+			</div>
+			<a href="#" style="text-decoration: none;display: block; background: #000; color: #fff; width: 150px;text-align: center; height: 50px;line-height: 50px;">SHOP NOW</a>
+		</div>
+	</div>
+</section>
+<section id="Instagram-posts">
+	<div class="insta-post-cont">
+	<div class="insta-posts">
+		<div class="insta-posts-row">
+			<img src="product1.png">
+			<img src="product2.png">
+			<img src="product3.png">
+		</div>
+		<div class="insta-posts-row">
+			<img src="product4.png">
+			<img src="product1.png">
+			<img src="product2.png">
+		</div>
+	</div>
+	<div class="insta-posts-txt">
+		<h2>Instagram</h2>
+		<p>Our latest Instagram posts feature the latest trends, styles, and outfits from our clothing collection, designed to make you stand out and express your unique fashion sense. Follow us for more fashion inspiration, and let our looks elevate your everyday wardrobe to new heights.</p>
+		<h3>#Male_Fashion</h3>
+	</div>
+  </div>
+</section>
+<section id="blogs">
+	<div class="blogs-top-title">
+		<h6>LATEST BLOGS</h6>
+		<h2>Fashion New Trends</h2>
+	</div>
+	<div class="blogs-cont">
+		<div class="blog1"></div>
+		<div class="blog2"></div>
+		<div class="blog3"></div>
+	</div>
+	<div class="blogs-cont">
+		<div class="blog-details">
+			<p><i class="fa-regular fa-calendar-days"></i>&nbsp;&nbsp; 24 August 2024</p>
+			<h6>Why Men Prefer Shopping Online: Key Reasons and Benefits</h6>
+			<a href="#">Read More</a>
+		</div>
+		<div class="blog-details">
+			<p><i class="fa-regular fa-calendar-days"></i>&nbsp;&nbsp; 31 August 2024</p>
+			<h6>Why Men Prefer Tie-Dye Hoodies: Key Reasons and Benefits</h6>
+			<a href="#">Read More</a>
+		</div>
+		<div class="blog-details">
+			<p><i class="fa-regular fa-calendar-days"></i>&nbsp;&nbsp; 1 September 2024</p>
+			<h6>Why Men's Accessories Matter: Understanding the Focus and Appeal</h6>
+			<a href="#">Read More</a>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="footer-cont">
+		<div class="footer-col1">
+			<img src="footerlogo.png">
+			<p>The customer is at the heart of our<br>
+				unique business model, which includes<br>design.</p>
+				<div class="payments">
+					<img src="https://themewagon.github.io/malefashion/img/payment.png">
+				</div>
+		</div>
+		<div class="footer-col2">
+			<h2>SHOPPING</h2><br>
+			<a href="#">Daraz Store</a><br>
+			<a href="#">Trending Items</a><br>
+			<a href="#">Best Selling</a><br>
+			<a href="#">Sale</a>
+		</div>
+		<div class="footer-col3">
+			<h2>CONTACT US</h2><br>
+			<a href="#">Whatsapp</a><br>
+			<a href="#">Instagram</a><br>
+			<a href="#">Facebook</a><br>
+			<a href="#">Gmail</a>
+		</div>
+		<div class="footer-col4">
+			<h2>NEWSLETTER</h2>
+			<p>Be the first to know about new arrivals,<br>
+			look books, sales & promos!</p>
+			<input id="newsletter" type="email" name="UserEmail" placeholder="Your Email">
+			<input id="submit" type="submit" value="Subscribe">
+		</div>
+	</div>
+	<hr id="shortline">
+	<div class="footer-bottom-title">
+			<p>Copyright © 2024 All rights reserved Hundreds Fashion Store</p>
+		</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
